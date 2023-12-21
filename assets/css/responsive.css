@@ -1,0 +1,417 @@
+@media only screen and (min-width: 1200px) {
+    #home .container .left_section {
+        width: 35%;
+    }
+
+    #home .container .right_section {
+        width: 64%;
+    }
+
+    #home .container .right_section .info_box {
+        padding-right: 15%;
+    }
+
+    #home .container .right_section .info_box p {
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #home .container .right_section .info_box h1 {
+        font-size: 44px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    #nav {
+        right: auto;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        background-color: #28292a;
+        z-index: 5;
+    }
+
+    #nav ul {
+        top: auto;
+        transform: none;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #nav ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 5PX 0;
+    }
+
+    #nav ul li a {
+        background: #444;
+        display: inline-block;
+        top: 4px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #nav ul li a h2 {
+        display: none;
+    }
+
+    #nav ul li a i,
+    #switch_handle .img_box .img {
+        font-size: 12px;
+    }
+
+    #home {
+        padding-bottom: 62px;
+    }
+
+    #home .block {
+        bottom: auto;
+        width: auto;
+        height: 30%;
+        transform: rotate(-5deg);
+        left: -5%;
+        right: 0;
+        top: -13%;
+    }
+
+    #home .container {
+        height: auto;
+    }
+
+    #home .container .left_section {
+        width: 100%;
+        height: auto;
+        padding: 0 10;
+    }
+
+    #home .container .left_section .img_box {
+        display: block;
+        max-width: 300px;
+        max-height: 300px;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
+    #home .container .left_section .img_box .img {
+        position: relative;
+        border-radius: 50%;
+        border: 7px solid #252525;
+        height: 100%;
+        width: 100%;
+        inset: auto;
+        box-sizing: border-box;
+    }
+
+    #home .container .right_section {
+        width: 100%;
+        text-align: center;
+    }
+
+    #home .container .right_section .info_box {
+        top: auto;
+        transform: none;
+        padding: 50px 0 50px 0;
+    }
+
+    #home .container .right_section .info_box h1 {
+        margin: 0;
+    }
+
+    #home .container .right_section .info_box p {
+        padding: 0 15%;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    #about {
+        padding: 0 15px;
+        padding-bottom: 50px;
+    }
+
+    #about .personal_info {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #about .personal_info .left_section {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    #about .personal_info .right_section {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #about .personal_info .left_section .outer_box {
+        width: 100%;
+        padding: 0;
+    }
+
+    #about .personal_info .left_section .outer_box .box {
+    margin-bottom: 0;
+}
+#portfolio{
+    padding-bottom: 75px;
+}
+#contact{
+    padding: 0 10%;
+}
+main{display: flex;flex-direction: column-reverse;padding-bottom: 75px;}
+#contact main .details{
+    width: 100%;
+}
+#contact form{
+    width: 100%;
+    padding-top: 20px;
+}
+#contact form .container{
+    width: 100%;
+}
+#portfolio .img_container, #blog .blog_container{
+    right: 0;
+}
+#blog .blog_container{
+    grid-template-columns:auto auto;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    #home .container .right_section .info_box h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    #home .container .right_section .info_box h1 span:after {
+        display: none;
+    }
+
+    #home .container .right_section .info_box p {
+        padding: 0 10%;
+        line-height: 30px;
+    }
+
+    #about .heading .bg_title,
+    #portfolio .heading .bg_title,
+    #contact .heading .bg_title,
+    #blog .heading .bg_title {
+        font-size: 85px;
+    }
+
+    #about .heading h1,
+    #portfolio .heading h1,
+    #contact .heading h1,
+    #blog .heading h1 {
+        font-size: 40px;
+    }
+
+    #about .skill .container .box {
+        width: 33.333%;
+    }
+
+    #about .experiance ul {
+        grid-template-columns: auto;
+        margin: 75px 0px;
+    }
+    #portfolio .img_container, #blog .blog_container{
+        grid-template-columns: auto auto;
+    }
+    #contact main .details p{
+        padding-left: 0;
+    }
+    #contact main .details .basic_info{
+        padding-left: 0;
+    }
+    #blog .blog_container{
+        grid-template-columns:auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #home .block {
+        transform: rotate(-11deg);
+        height: 23%;
+        top: -9%;
+    }
+
+    #about .skill .container .box {
+        width: 50%;
+    }
+
+    #about .heading .bg_title,
+    #portfolio .heading .bg_title,
+    #contact .heading .bg_title,
+    #blog .heading .bg_title {
+        display: none;
+    }
+
+    #about .experiance ul li .icon:after {
+        height: 250px;
+    }
+
+    #about .personal_info .right_section ul li span {
+        display: block;
+    }
+
+    #about .experiance h2,
+    #about .skill h2 {
+        font-size: 25px;
+    }
+    #about .heading, #portfolio .heading, #contact .heading, #blog .heading{
+        padding: 40px 0;
+    }
+    #about .personal_info .right_section h2{
+        font-size: 22px;
+    }
+    #about .heading h1, #portfolio .heading h1, #contact .heading h1, #blog .heading h1{
+        font-size: 30px;
+    }
+    #portfolio .img_container, #blog .blog_container{
+        grid-template-columns: auto;
+    }
+    #contact form .container .box{
+        grid-template-columns: auto;
+        gap: 0;
+    }
+    #contact main .details h2{
+        font-size: 20px;
+    }
+    #blog .blog_container .card .info h2{
+        font-size: 15px;
+        max-width: 300px;
+        display: inline-block;
+        width: 100%;
+    }
+    #blog .blog_container .card .info p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #nav ul {
+        padding: 0 15px;
+    }
+
+    #nav ul li a,
+    #switch_handle .img_box {
+        height: 35px;
+        width: 35px;
+    }
+
+    #home .container .right_section {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    #home .container .left_section .img_box {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    #home .container .right_section .info_box h1 {
+        font-size: 28px;
+    }
+
+    #home .container .right_section .info_box p {
+        padding: 0 5%;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #home .container .right_section .info_box button,
+    #contact main form .container button,
+    #about .personal_info .right_section button {
+        padding: 15px 65px 15px 25px;
+    }
+
+    #home .container .right_section .info_box button span,
+    #contact main form .container button span,
+    #about .personal_info .right_section button span {
+        font-size: 13px;
+    }
+
+    #home .container .right_section .info_box button .icon_box,
+    #contact main form .container button .icon_box,
+    #about .personal_info .right_section button .icon_box {
+        height: 47px;
+        width: 47px;
+    }
+
+    #home .container .right_section .info_box button .icon_box:before,
+    #contact main form .container button .icon_box:before,
+    #about .personal_info .right_section button .icon_box:before {
+        font-size: 16px;
+    }
+
+    #about .skill .container .box .slice {
+        height: 90px;
+        width: 90px;
+    }
+
+    #about .skill .container .box .slice span {
+        font-size: 16px;
+    }
+
+    #about .skill .container .box .slice .cover {
+        width: 90px;
+        height: 90px;
+    }
+    #about .personal_info .left_section .outer_box .box h2{
+        font-size: 35px;
+    }
+    #about .personal_info .left_section .outer_box .box p{font-size: 14px;}
+    #about .personal_info .left_section .outer_box .box{
+        padding: 10px 15px;
+    }
+    #about .skill .container .box .slice .cover .bar,
+    #about .skill .container .box .slice .cover .fill {
+        height: 70px;
+        width: 70px;
+        border: 10px solid #f1aa00;
+        clip: rect(0, 45px, 90px, 0);
+    }
+
+    #about .skill .container .box .slice:after {
+        width: 70px;
+        height: 70px;
+    }
+
+    #about .skill .container .box .slice .cover.blow_50 {
+        clip: rect(0em, 90px, 90px, 45px);
+    }
+
+    #about .experiance ul {
+        padding: 0 0;
+    }
+    #about .personal_info .left_section{
+        grid-gap: 15px;
+    }
+    #about .personal_info .right_section ul li{
+        font-size: 12px;
+    }
+    #about .heading h1, #portfolio .heading h1, #contact .heading h1, #blog .heading h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    #about .personal_info .left_section{
+        grid-template-columns: auto;
+    }
+    #contact main .details .social_icon li{
+        padding-bottom: 15px;
+    }
+    #contact main .details .social_icon li:last-child{
+        padding-right: 10px;
+    }
+}
