@@ -1,3 +1,3 @@
 # Netlify
 
- # Live website :-  [Netlify](https://ghost1pm.github.io/Netlify/)
+ # Live website :-  [Netlify](https://priyammittal9.github.io/Netlify/)
